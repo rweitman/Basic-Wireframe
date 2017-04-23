@@ -1,0 +1,83 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+	background: #777;
+}
+
+header, nav, footer{
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ebebeb;
+	width: 960px;
+	font-color: #777;
+	text-align: center;
+	clear:both;
+
+}
+
+div.relative {
+    position: relative;
+    margin:auto;
+    width: 1000px;
+    line-height: 60px;
+    padding-bottom:300px;
+} 
+
+section {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 495px;
+    height: 260px;
+    background: #ebebeb;
+    text-align:center;
+}
+
+aside {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 485px;
+    height: 260px;
+	background: #ebebeb;
+	text-align:center;
+}
+
+article {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 465px;
+    height: 190px;
+	background: #777;
+	color: #ebebeb;
+	text-align:center;
+}
+
+h1 {
+	position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 425px;
+    height: 50px;
+	background: #ebebeb;
+	color:#777;
+	text-align:center;
+}
+
+p {
+	position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 425px;
+    height: 50px;
+	background: #ebebeb;
+	color:#777;
+	text-align:center;
+}
