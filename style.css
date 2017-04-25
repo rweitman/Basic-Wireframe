@@ -17,9 +17,12 @@ header, nav, footer{
 	width: 960px;
 	font-color: #777;
 	text-align: center;
-	clear:both;
-
 }
+
+.clear {
+    clear:both;
+}
+
 
 div.relative {
     position: relative;
@@ -43,7 +46,7 @@ aside {
     position: absolute;
     top: 20px;
     right: 0px;
-    width: 485px;
+    width: 495px;
     height: 260px;
 	background: #ebebeb;
 	text-align:center;
